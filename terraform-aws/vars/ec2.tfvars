@@ -1,20 +1,20 @@
 # EC2 Instance Variables
-region         = "us-west-2"
-ami_id         = "ami-03fd0aa14bd102718"
-instance_type  = "t4g.micro"
-key_name       = "techiescamp"
+region         = "eu-north-1"
+ami_id         = "ami-073130f74f5ffb161"
+instance_type  = "t3.micro"
+key_name       = "kill-raheem"
 instance_count = 1
 volume-size = 20
 
 # VPC id
-vpc_id  = "vpc-0a5ca4a92c2e10163"
-subnet_ids     = ["subnet-058a7514ba8adbb07"]
+vpc_id  = "vpc-0b5a032de9d89594f"
+subnet_ids     = ["subnet-0b2c1cb1dbc624954"]
 
 # Ec2 Tags
 name        = "prometheus-stack"
-owner       = "techiescamp"
+owner       = "raheem"
 environment = "dev"
-cost_center = "techiescamp-commerce"
+cost_center = "raheem-commerce"
 application = "monitoring"
 
 # CIDR Ingress Variables
