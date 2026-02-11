@@ -1,8 +1,8 @@
 # EC2 Instance Variables
-region         = "eu-north-1"
-ami_id         = "ami-073130f74f5ffb161"
-instance_type  = "t3.micro"
-key_name       = "kill-raheem"
+region         = "eu-north-1" # Replace with your desired AWS region
+ami_id         = "ami-073130f74f5ffb161" # Replace with the AMI ID for your desired region and operating system (e.g., Amazon Linux 2, Ubuntu, etc.)
+instance_type  = "t3.micro" # Replace with your desired instance type (e.g., t2.micro, t3.micro, etc.)
+key_name       = "your-key-name"  # Replace with your actual key pair name
 instance_count = 1
 volume-size = 20
 
@@ -12,9 +12,9 @@ subnet_ids     = ["subnet-0b2c1cb1dbc624954"]
 
 # Ec2 Tags
 name        = "prometheus-stack"
-owner       = "raheem"
+owner       = "monitoring-team"
 environment = "dev"
-cost_center = "raheem-commerce"
+cost_center = "monitoring"
 application = "monitoring"
 
 # CIDR Ingress Variables

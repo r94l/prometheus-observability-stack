@@ -16,7 +16,7 @@ receivers:
 
 - name: 'slack-notifications'
   slack_configs:
-    - api_url: "https://hooks.slack.com/services/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" # Replace with your Slack Incoming Webhook URL
+    - api_url: "https://hooks.slack.com/services/YOUR-SLACK-API-URL" # Replace with your Slack Incoming Webhook URL
       channel: '#dev' # Replace with the Slack channel or user where you want to send notifications
       send_resolved: true # Set to true to send resolved alerts as well
 
