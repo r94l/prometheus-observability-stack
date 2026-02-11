@@ -38,26 +38,9 @@ Modern DevOps is not just deploying tools, it is engineering environments.
 
 ##  Architecture
 
-```
-                ┌─────────────────────────────┐
-                │          AWS Cloud          │
-                │                             │
-Terraform  ───► │   EC2 Instance (Linux)      │
-Provisioning    │   ─────────────────────     │
-                │   Docker Engine             │
-                │   Docker Compose            │
-                │                             │
-                │   ┌────────────────────┐    │
-                │   │   Node Exporter    │    │
-                │   ├────────────────────┤    │
-                │   │   Prometheus       │    │
-                │   ├────────────────────┤    │
-                │   │   Alertmanager     │    │
-                │   ├────────────────────┤    │
-                │   │   Grafana          │    │
-                │   └────────────────────┘    │
-                └─────────────────────────────┘
-```
+<p align="center">
+  <img src="images/architecture.png" alt="Prometheus Observability Architecture" width="800"/>
+</p>
 
 ---
 
