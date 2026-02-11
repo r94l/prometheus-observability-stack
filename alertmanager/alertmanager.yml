@@ -14,8 +14,4 @@ receivers:
       auth_password: 'your-password' # Replace with your SMTP password
       send_resolved: true
 
-- name: 'slack-notifications'
-  slack_configs:
-    
-      channel: '#dev' # Replace with the Slack channel or user where you want to send notifications
-      send_resolved: true # Set to true to send resolved alerts as well
+
