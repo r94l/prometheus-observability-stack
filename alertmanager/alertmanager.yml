@@ -13,5 +13,3 @@ receivers:
       auth_username: 'your-username' # Replace with your SMTP username
       auth_password: 'your-password' # Replace with your SMTP password
       send_resolved: true
-
-
